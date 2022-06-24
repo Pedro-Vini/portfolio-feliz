@@ -1,0 +1,100 @@
+:root
+{
+    --white: #fff;
+    --black: #000;
+    --red: #f25a70;
+    --purple: #7c5e99;
+    --grey: #3a4042;
+}
+
+a
+{
+    color: var(--white);
+    text-decoration: none;
+}
+
+.header
+{
+    display: flex;
+    height: 80px;
+    padding: 10px 25px 10px 20px;
+    background-color: var(--purple);
+    justify-content: space-between;
+}
+
+.navigation
+{
+    height: 100%;
+    width: auto;
+}
+
+.n_ul
+{
+    display: inline-flex;
+    height: 100%;
+    width: auto;
+    align-items: center;
+    list-style: none;
+}
+
+.n_links
+{
+    margin-right: 30px;
+    font: 500 20px "Fira Code";
+    font-family: "Fira Code", sans-serif;
+}
+
+.logo
+{
+    width: 3.75rem;
+    height: auto;
+    transition: 0.3s;
+}
+
+.n_button
+{
+    font: 500 20px "Fira Code";
+    font-family: "Fira Code", sans-serif;
+    height: 60px;
+    background-color: var(--red);
+    border: 0;
+    padding: 17px 18px 17px 20px;
+    box-shadow: 5px 5px 0px var(--black);
+    transition: 0.3s;
+    
+}
+
+.n_links::before
+{
+    content: "\25FC";
+    margin-right: 10px;
+    color: var(--red);
+}
+
+.logo:hover
+{
+    transform: rotate(-10deg);
+}
+
+.n_links a
+{
+    transition: 0.3s;
+}
+
+.n_links a:hover
+{
+    color: var(--black);
+}
+
+.n_button:hover
+{
+    cursor: pointer;
+    color: var(--red);
+    background-color: var(--white);
+}
+
+.separator
+{
+    height: 10px;
+    background-color: var(--black);
+}
