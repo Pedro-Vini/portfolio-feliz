@@ -48,7 +48,7 @@ a
 {
     width: 3.75rem;
     height: auto;
-    transition: 0.3s;
+    transition:  transform 0.2s linear;
 }
 
 .n_button
@@ -60,7 +60,7 @@ a
     border: 0;
     padding: 17px 18px 17px 20px;
     box-shadow: 5px 5px 0px var(--black);
-    transition: 0.3s;
+    transition: color 0.2s linear, background-color 0.2s linear;
     
 }
 
@@ -73,17 +73,17 @@ a
 
 .logo:hover
 {
-    transform: rotate(-10deg);
+    transform: scale(1.05);
 }
 
 .n_links a
 {
-    transition: 0.3s;
+    transition: border-bottom 0.1s linear;
 }
 
 .n_links a:hover
 {
-    color: var(--black);
+    border-bottom: solid 3px var(--white);
 }
 
 .n_button:hover
