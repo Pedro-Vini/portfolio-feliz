@@ -98,3 +98,96 @@ a
     height: 10px;
     background-color: var(--black);
 }
+
+.v_separator
+{
+    background-color: var(--black);
+    position: absolute;
+    z-index: 5;
+    width: 5px;
+    height: 797px;
+    left: 992px;
+}
+
+#b_images
+{
+    position: absolute;
+    width: 100%;
+    z-index: -2;
+}
+
+#b_img1
+{
+    position: absolute;
+    z-index: -1;
+    width: 1481px;
+    height: 797px;
+}
+
+#b_img2
+{
+    position: absolute;
+    z-index: 1;
+    width: 996px;
+    height: 797px;
+}
+
+#box_info
+{
+    position: absolute;
+    background-color: var(--grey);
+    width: 627px;
+    height: 184px;
+    margin-top: 106px;
+    margin-left: 91px;
+    box-shadow: 10px 10px 0px var(--black);
+    padding-top: 42px;
+    padding-left: 40px;
+}
+
+#name
+{
+    margin-left: 50px;
+    color: var(--red);
+    font: 400 40px "Press Start 2P";
+    text-shadow: 4px 4px 0px var(--black);
+}
+
+#bio
+{
+    margin-top: 28px;
+    color: var(--white);
+    font: 400 30px "Press Start 2P";
+    text-shadow: 4px 4px 0px var(--black);
+}
+
+#b_box_buttons
+{
+    position: absolute;
+    justify-content: space-between; 
+    margin-left: 181px;
+    top: 418px;
+}
+
+.b_buttons
+{
+    background-color: var(--red);
+    color: var(--white);
+    font: 400 20px "Fira Code";
+    display: inline-block;
+    text-align: center;
+    width: 170px;
+    height: 60px;
+    padding: 17px 18px 17.43px 20px;
+    box-shadow: 5px 5px 0px var(--black);
+}
+
+.b_buttons:hover
+{
+    cursor: pointer;
+}
+
+#b_bt2
+{
+    margin-left: 112px;
+}
